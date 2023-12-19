@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img{
+    max-width: 100px;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    max-width: 45%;
+}
+
+.main-content h1 {
+    font-size: 35px;
+    color: white;
+    max-width: 60%;
+    margin-left: 120px;
+}
+
+
+.main-content p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 200px;
+    margin-left: 120px;
+}

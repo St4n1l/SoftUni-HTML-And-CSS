@@ -1,0 +1,62 @@
+*{
+    font-family: Poppins, sans-serif;
+}
+
+h1, h5 {
+text-align: center;
+}
+
+span{
+    color: blue;
+}
+
+div.boxes{
+    display: flex; /* Use a flex container */
+    justify-content: space-between; /* Spread the boxes evenly */
+  }
+  
+.box {
+    background-color: #4986b6;
+    border: 2px solid #000;
+    text-align: center;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.box:first-child{
+  margin-left: 2cm;
+}
+
+.box:last-child{
+  margin-right: 2cm;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+  
+h3 {
+  margin-left: 21px;
+  text-align: left;
+}
+  
+p {
+  margin: 10px 0;
+}
+
+.box-button{
+  color: white;
+  background-color: blue;
+  border-color: white;
+  border-radius: 10px;
+  padding: 3px 20px;
+  position: relative;
+  right: 4cm;
+  margin: 0.5cm;
+}

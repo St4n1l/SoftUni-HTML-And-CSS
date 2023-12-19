@@ -1,0 +1,41 @@
+.sponsors{
+    border-top: #DDDDDD solid 1px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.sponsors h1,
+.sponsors p{
+    text-align: center;
+}
+
+.sponsors h1{
+    color: #CEAB92;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.sponsors p{
+    margin-left: 160px;
+    margin-right: 160px;
+    font-weight: lighter;
+}
+
+.sponsor-images{
+    display: flex;
+    justify-content: center;
+    gap: 40px;    
+}
+
+.sponsor-images img{   
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100px;
+    height: auto;
+    display: block;
+    border-color: solid 1px;
+    border-radius: 50%;
+    background-color: #E2E2E2;
+    padding: 1em;
+    aspect-ratio: 1/1;
+}

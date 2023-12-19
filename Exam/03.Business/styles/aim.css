@@ -1,0 +1,39 @@
+.aims{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    gap: 40px;
+}
+
+.business-aim{
+    margin-left: 150px;
+}
+
+.object-aim{
+    margin-right: 150px;
+}
+
+.aims a{
+    margin-top: 50px;
+    border: 2px solid #CEAB92;
+    padding: 10px;
+    color: #CEAB92;
+    text-decoration: none;
+    font-weight: bolder;
+    max-width: fit-content;
+    margin-bottom: 30px;
+}
+
+.aims p{
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+
+.aims h1{
+    padding-top: 50px;
+    font-weight: lighter;
+}

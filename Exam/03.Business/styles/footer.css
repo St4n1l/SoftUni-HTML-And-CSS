@@ -1,0 +1,21 @@
+.footer{
+    background-color: #181821;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-right:150px
+}
+
+.footer h4{
+    margin-top: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.footer li{
+    color: #8D8790;
+    line-height: 20px;
+    padding: 0.4em 0em;
+}
